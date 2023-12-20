@@ -13,11 +13,11 @@ const Home = () => {
 
           {/* <button className="chat-button"> */}
           <div className="chat-button">
-            <button onClick={() => {/* Add your chatbot functionality here */ }}>
-              <img src="/src/assests/Screenshot 2023-12-10 at 4.47 1.png" alt="Chacha Chaudhary" />
-              <span>Chat with Chacha Chaudhary</span>
-            </button>
-          </div>
+  <button onClick={() => window.location.href = 'http://localhost:5000'}>
+    <img src="/src/assests/Screenshot 2023-12-10 at 4.47 1.png" alt="Chacha Chaudhary" />
+    <span>Chat with Chacha Chaudhary</span>
+  </button>
+</div>
         </div>
       </div>
 
@@ -199,11 +199,11 @@ const Home = () => {
         <Footer />
 
         <div className="chatbot-button">
-          <button onClick={() => {/* Add your chatbot functionality here */ }}>
-            <img src="/src/assests/Screenshot 2023-12-10 at 4.47 1.png" alt="Chatbot Icon" />
-            <span>Chat with Chatbot</span>
-          </button>
-        </div>
+  <button onClick={() => window.location.href = 'http://localhost:5000'}>
+    <img src="/src/assests/Screenshot 2023-12-10 at 4.47 1.png" alt="Chacha Chaudhary" />
+    <span>Chat with Chacha Chaudhary</span>
+  </button>
+</div>
 
       </>
       );
